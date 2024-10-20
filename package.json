@@ -1,0 +1,20 @@
+{
+  "name": "mohit_ravat_css_precompiler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "gotea": "lite-server --baseDir=\"tea\"",
+    "teaisawesome": "sass --watch src/scss:tea/assets/css",
+    "start": "concurrently \"npm run gotea\" \"npm run teaisawesome\""
+  },
+  "keywords": [],
+  "author": "Mohit Ravat",
+  "license": "private",
+  "private": true,
+  "devDependencies": {
+    "concurrently": "^9.0.1",
+    "lite-server": "^2.6.1",
+    "sass": "^1.80.3"
+  }
+}
